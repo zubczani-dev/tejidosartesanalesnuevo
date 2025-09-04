@@ -1,6 +1,4 @@
-import React from 'react'
-
-function Navbar() {
+export default function Navbar() {
   return (
     <nav className="navbar">
       <ul>
@@ -9,7 +7,5 @@ function Navbar() {
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
-  )
+  );
 }
-
-export default Navbar

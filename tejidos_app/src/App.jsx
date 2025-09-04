@@ -1,18 +1,15 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Products from './components/Products'
-import Footer from './components/Footer'
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Productos from "./components/Productos";
+import Contacto from "./components/Contacto";
 
-function App() {
+export default function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Products />
-      <Footer />
+      <Header />
+      <Productos />
+      <Contacto />
     </>
-  )
+  );
 }
-
-export default App
