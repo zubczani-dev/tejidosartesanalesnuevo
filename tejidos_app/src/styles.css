@@ -66,39 +66,6 @@ h2 {
   background-color: #b82e5e;
 }
 
-    /* Sidebar */
-    .sidebar {
-      width: 220px;
-      height: 100vh;
-      background: #333;
-      color: white;
-      position: fixed;
-      left: 0;
-      top: 0;
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-    }
-
-    .sidebar h2 {
-      margin: 0 0 20px;
-      font-size: 20px;
-      text-align: center;
-    }
-
-    .sidebar a {
-      color: white;
-      text-decoration: none;
-      padding: 12px;
-      margin: 5px 0;
-      border-radius: 5px;
-      transition: background 0.3s;
-    }
-
-    .sidebar a:hover {
-      background: #575757;
-    }
-
     /* Contenido */
     .contenido {
       margin-left: 240px; /* espacio para el sidebar */
@@ -144,6 +111,31 @@ h2 {
 .accordion-content.open {
   max-height: 4000px;
   padding: 20px;
+}
+
+.historia {
+  background-color: #fff8f0;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  border: 1px solid #f0d9b5;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.historia h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #c96f2f;
+  text-align: center;
+}
+
+.historia p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1rem;
 }
 
 /* Productos */
