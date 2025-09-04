@@ -1,13 +1,18 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function Accordion({ title, children }) {
-  const [open, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion = () => setIsOpen(!isOpen);
+
   return (
-    <div className="accordion">
-      <button className="accordion-button" onClick={() => setOpen(!open)}>
-        {title}
+    <section className="accordion">
+      <button className="accordion-button" onClick={toggleAccordion}>
+        {title} {isOpen ? "▲" : "▼"}
       </button>
-      {open && <div className="accordion-content">{children}</div>}
-    </div>
+      <div className={`accordion-content ${isOpen ? "open" : ""}`}>
+        {isOpen && children}
+      </div>
+    </section>
   );
 }
