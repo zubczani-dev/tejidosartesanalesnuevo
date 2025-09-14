@@ -2,7 +2,7 @@ export default function Contacto() {
   return (
     <section id="contacto">
       <h2>Contáctanos</h2>
-      <form action="https://formspree.io/f/" method="POST">
+      <form action="https://formspree.io/f/xzzakgwo" method="POST">
         <input type="text" name="nombre" placeholder="Tu nombre" required />
         <input type="email" name="email" placeholder="Tu correo" required />
         <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
