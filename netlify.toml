@@ -1,4 +1,8 @@
 ﻿[build]
-  base = "tejidos_app"
-  publish = "tejidos_app/dist"
   command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
