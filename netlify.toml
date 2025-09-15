@@ -1,0 +1,4 @@
+﻿[build]
+  base = "tejidos_app"
+  publish = "tejidos_app/build"
+  command = "npm run build"
