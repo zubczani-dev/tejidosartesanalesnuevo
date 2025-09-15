@@ -1,0 +1,17 @@
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Lobster', 'Parisienne', sans-serif; }
+.navbar { position: sticky; top: 0; background: #fff; border-bottom: 1px solid #eee; z-index: 10; }
+.navbar ul { list-style: none; margin: 0; padding: 10px 16px; display: flex; gap: 16px; }
+.navbar a { text-decoration: none; color: #333; }
+.header-img { display: block; width: 100%; height: auto; }
+.accordion { margin: 16px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+.accordion-button { width: 100%; padding: 12px 16px; font-size: 1rem; text-align: left; background: #f7f7f7; border: none; cursor: pointer; }
+.accordion-content { padding: 12px 16px; }
+.productos { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.producto { border: 1px solid #eee; border-radius: 8px; padding: 12px; background: #fff; }
+.producto img { width: 100%; height: 180px; object-fit: cover; border-radius: 6px; }
+.precio { font-weight: bold; margin: 8px 0; }
+.btn-comprar { padding: 8px 12px; border-radius: 6px; border: 1px solid #222; background: white; cursor: pointer; }
+#contacto { padding: 24px 16px; }
+#contacto form { display: grid; gap: 10px; max-width: 500px; }
+#contacto input, #contacto textarea { padding: 10px; border: 1px solid #ddd; border-radius: 6px; }
