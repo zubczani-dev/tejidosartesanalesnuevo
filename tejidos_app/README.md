@@ -12,6 +12,8 @@ Este proyecto es una página web para mostrar y vender tejidos artesanales reali
 3)	Incrementar las ventas de productos artesanales mediante la innovación tecnológica en el comercio electrónico para alcanzar a la mayor cantidad de clientes posibles.
 
 
+link de neftily: https://68cbfc1f6a6a833773e71ebb--tejido.netlify.app/
+
 Objetivos específicos:
 
 1)	Diseñar y crear el sitio web de tejidos a crochet en un tiempo de un mes. 
