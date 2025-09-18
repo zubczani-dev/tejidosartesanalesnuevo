@@ -1,3 +1,4 @@
 [build]
-  base = "tejidos_app"
+  base = ""
   publish = "tejidos_app"
+  command = ""
