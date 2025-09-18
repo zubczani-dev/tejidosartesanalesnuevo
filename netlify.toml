@@ -1,4 +1,3 @@
-[build]
-  base = "tejidos_app"
-  publish = "tejidos_app/dist"
+ base = "tejidos_app"
+  publish = "dist"
   command = "npm run build"
